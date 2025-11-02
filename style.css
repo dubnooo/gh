@@ -1,45 +1,31 @@
 
-* {
+   * {
       margin: 0;
       padding: 0;
       box-sizing: border-box;
       scroll-behavior: smooth;
       font-family: 'Segoe UI', sans-serif;
     }
-
+   
     body {
-      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
-      color: #fff;
+      background: url(https://presa.com.ua/images/2021/05/04/gateau-monstre-yeux-halloween-pi_large.jpg)
+      
       
     }
 
-    header {
-      padding: 2rem;
-      text-align: center;
-      background: rgba(0, 0, 0, 0.4);
-      backdrop-filter: blur(6px);
-      
-    }
-
-    h1 {
-      font-size: 3rem;
+h1 {
+   color: red;
+   font-size: 3rem;
       animation: fadeIn 4s ease-out;
       
   font-family: "Pacifico", cursive;
   font-weight: 400;
   font-style: normal;
 }
-    
-
-    section {
-      padding: 4rem 2rem;
-      max-width: 1000px;
-      margin: 0 auto;
-      text-align: center;
-     
-    }
-
-    section h2 {
+p{
+  color: rgb(0, 255, 38);
+} h2 {
+  color: rgb(255, 247, 0);
       font-size: 2rem;
       margin-bottom: 1rem;
       font-family: "Pacifico", cursive;
@@ -47,105 +33,3 @@
   font-style: normal;
       
     }
-
-    section p, ul {
-      font-size: 1.2rem;
-      line-height: 1.7;
-      
-    }
-
-    .highlight {
-      color: #00eaff;
-      font-weight: bold;
-      
-    }
-
-    .btn {
-      margin-top: 2rem;
-      padding: 1rem 2rem;
-      background: linear-gradient(45deg, #00c6ff, #0072ff);
-      border: none;
-      border-radius: 50px;
-      color: white;
-      font-size: 1.1rem;
-      cursor: pointer;
-      transition: transform 0.3s ease, box-shadow 0.3s ease;
-      background:url(https://static.ifxdb.com/ai-static-content/219/pF6lo_800.jpg);
-    }
-
-    .btn:hover {
-      transform: scale(1.05);
-      box-shadow: 0 0 15px #00eaff;
-      
-    }
-
-    .image-block {
-      margin: 3rem auto;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 2rem;
-      
-    }
-
-    .image-block img {
-      max-width: 100%;
-      height: auto;
-      border-radius: 20px;
-      box-shadow: 0 4px 20px rgba(0,0,0,0.5);
-      transition: transform 0.4s;
-    }
-
-    .image-block img:hover {
-      transform: scale(1.05);
-    }
-
-    footer {
-      text-align: center;
-      padding: 2rem;
-      background: rgba(0, 0, 0, 0.3);
-    }
-
-    @keyframes fadeIn {
-      0% {opacity: 0; transform: translateY(-20px);}
-      100% {opacity: 1; transform: translateY(0);}
-    }
-
-    
-
-
-header nav a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    padding: 10px 20px;
-    margin: 20px;
-    border: 2px solid rgba(14, 58, 66, 0.815);
-    border-radius: 20px;
-    background-color: #2c2606; /* Жовте тло для контрасту */
-    transition: all 1s ease;
-}
-
-
-header nav a:hover {
-    background-color: white;
-    color: #425161;
-    font-size: 10px;
-}
-a{
-  background:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkHiuM9QQI4ThR-pdpFx5mh2PtVqHz9fxmPA&s);
-  font-size: 70%;
-}
-
-.ua {
-  background-color: #070705;
-}
-.q{
-  background-color: #242b32;
-}
-.w{
-  background-color: #0f2027;
-}
-.j{
-  background-color: #161a1a;
-}
